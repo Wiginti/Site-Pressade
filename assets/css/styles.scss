@@ -1,0 +1,10 @@
+@import "reset";
+@import "vars";
+@import "header";
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
