@@ -1,4 +1,4 @@
-header {
+body > header {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
@@ -8,14 +8,14 @@ header {
 ul {
   display: flex;
 }
-header button {
+body > header button {
   background-color: white;
   border: 0;
   max-height: 8vh;
 }
-header img {
+body > header img {
   max-height: 6vh;
 }
-header span {
+body > header span {
   padding: 0.625em;
 }
