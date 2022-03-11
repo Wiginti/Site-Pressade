@@ -1,4 +1,4 @@
-body > header {
+.header {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
@@ -10,14 +10,14 @@ body > header {
 ul {
   display: flex;
 }
-body > header button {
+.nav_button {
   background-color: white;
   border: 0;
   max-height: 8vh;
 }
-body > header img {
+.header img {
   max-height: 6vh;
 }
-body > header span {
+.header span {
   padding: 0.625em;
 }
