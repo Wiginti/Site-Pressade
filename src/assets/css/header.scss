@@ -22,3 +22,19 @@
 .header span {
   padding: 0.625em;
 }
+.nav__menu {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  left: 0;
+  top: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav__menu li {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  text-align: center;
+  color: green;
+}
