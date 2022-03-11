@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jus d'orange</title>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.scss" />
+    <script defer src="assets/js/app.js"></script>
   </head>
   <body>
     <header class="header">
@@ -13,7 +14,7 @@
         <img src="assets/img/logo.png" />
       </span>
       <nav class="nav">
-        <button clas="nav__button">
+        <button class="nav__button">
           <svg viewBox="0 0 100 70" width="60" height="60">
             <rect width="80" height="6"></rect>
             <rect y="30" width="80" height="6"></rect>
@@ -30,14 +31,39 @@
     <main>
       <section class="presentation">
         <header class="presentation__header">
-          <h1 class="presentation__header__titre">
-            Pressade - Le jus d'orange pour tes petits déjeunés
-          </h1>
+          <h1 class="presentation__titre">Pressade - Le jus d'orange</h1>
         </header>
-        <main></main>
+        <main class="presentation__main">
+          <div class="presentation__content">
+            <img
+              class="presentation__image"
+              src="assets/img/jus-orange.png"
+              alt="Image du jus d'orange"
+              loading="lasy"
+            />
+          </div>
+        </main>
+      </section>
+      <section class="bio">
+        <h2 class="bio__titre">Le Bio du Marché</h2>
+        <div class="bio__content">
+          <img
+            class="bio__image"
+            src="assets/img/logo-bio.png"
+            alt="logo produits bio"
+            loading="lasy"
+          />
+          <p>
+            Retrouvez le bon goût des fruits du marché aux variétés et origines
+            sélectionnées dans un jus sans résidus de pesticides* et sans sucres
+            ajoutés**. Pressade Le Bio du Marché, c'est un jus de fruits avec
+            100% d'ingrédients d'origine naturelle dans un nouvel emballage
+            respectueux de l'environnement : une brique d'origine végétale et
+            renouvelable à 81%. Souriez, vous avez tout bon avec Pressade !
+          </p>
+        </div>
       </section>
     </main>
-    <footer></footer>
-    <script src="assets/js/app.js"></script>
+    <footer class="footer"></footer>
   </body>
 </html>

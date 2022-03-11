@@ -1,6 +1,20 @@
-.presentation__header__titre {
+.presentation {
+  border-bottom: 0.3125rem solid rgba(255, 123, 0, 0.699);
+}
+.presentation__titre {
   display: flex;
   justify-content: center;
-  margin: 1.625rem;
-  font-size: 2.5rem;
+  margin: 2rem 0.25rem 0.5rem 0.25rem;
+  font-size: 1.8rem;
+}
+.presentation__content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.presentation__image {
+  max-height: 80vh;
+}
+.bio {
+  margin-top: 2rem;
 }

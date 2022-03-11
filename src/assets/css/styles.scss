@@ -1,4 +1,5 @@
 @import "reset";
+@import "fonts";
 @import "vars";
 @import "header";
 @import "main";
@@ -8,4 +9,7 @@
 
 img {
   max-width: 100%;
+}
+html {
+  font-family: "RobotoCondensed-Regular";
 }
