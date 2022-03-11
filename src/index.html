@@ -8,12 +8,12 @@
     <link rel="stylesheet" type="text/css" href="assets/css/styles.scss" />
   </head>
   <body>
-    <header>
-      <span>
+    <header class="header">
+      <span class="header__logo">
         <img src="assets/img/logo.png" />
       </span>
-      <nav>
-        <button>
+      <nav class="nav">
+        <button clas="nav__button">
           <svg viewBox="0 0 100 70" width="60" height="60">
             <rect width="80" height="6"></rect>
             <rect y="30" width="80" height="6"></rect>
@@ -28,11 +28,14 @@
       </nav>
     </header>
     <main>
-      <header>
-        <h1>
-          <span>Pressade</span> - Le jus d'orange pour tes petits déjeunés
-        </h1>
-      </header>
+      <section class="presentation">
+        <header class="presentation__header">
+          <h1 class="presentation__header__titre">
+            Pressade - Le jus d'orange pour tes petits déjeunés
+          </h1>
+        </header>
+        <main></main>
+      </section>
     </main>
     <footer></footer>
     <script src="assets/js/app.js"></script>
