@@ -11,13 +11,17 @@
 .header ul {
   display: flex;
 }
-.nav__button {
+.nav__up,
+.nav__close {
   background-color: white;
   border: 0;
   max-height: 8vh;
   height: 8vh;
 }
 .header img {
+  max-height: 5vh;
+}
+.header img:hover {
   max-height: 6vh;
 }
 .header span {
@@ -38,4 +42,19 @@
   width: 100%;
   text-align: center;
   color: green;
+}
+.nav__up,
+.nav__close svg {
+  height: 5vh;
+}
+.nav__close svg:hover {
+  stroke: blue;
+  cursor: pointer;
+}
+.nav__up svg:hover {
+  fill: blue;
+  cursor: pointer;
+}
+.nav__close {
+  margin-right: 0.875rem;
 }
