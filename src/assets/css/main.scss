@@ -1,5 +1,6 @@
 .presentation,
-.bio {
+.bio,
+.savoir {
   border-bottom: 0.125rem solid rgba(216, 216, 216, 0.699);
   height: 100vh;
   display: flex;
@@ -8,15 +9,29 @@
   padding-top: 8vh;
 }
 .presentation__titre,
-.bio__titre {
+.bio__titre,
+.savoir__titre {
   display: flex;
   justify-content: center;
   font-size: 1.8rem;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+.presentation__titre,
+.bio__titre {
   line-height: 2;
 }
 .presentation__titre p,
-.bio__titre p {
+.bio__titre p,
+.savoir__titre p {
   padding-top: 0.3rem;
+}
+.bio__titre strong {
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+.savoir__titre strong {
+  margin-left: 1.5vw;
 }
 .presentation__titre strong {
   color: rgb(9, 14, 1);
@@ -25,7 +40,8 @@
   font-size: 2rem;
 }
 .presentation__content,
-.bio__content {
+.bio__content,
+.savoir__content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,8 +54,12 @@
 .presentation__image {
   max-height: 60vh;
 }
+.bio__image {
+  max-height: 40vh;
+}
 .presentation__content p,
-.bio__content p {
+.bio__content p,
+.savoir__content p {
   padding: 1rem;
   font-size: 1.2rem;
 }
