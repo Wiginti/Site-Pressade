@@ -11,17 +11,23 @@
   <body>
     <header class="header">
       <span class="header__logo">
-        <img src="assets/img/logo.png" />
+        <a href="#presentation"
+          ><img src="assets/img/logo.png" alt="Logo pressade" loading="lasy"
+        /></a>
       </span>
       <nav class="nav">
-        <button class="nav__up" id="btn-burger">
+        <button class="nav__up" id="btn-burger" aria-label="ouvrir menu burger">
           <svg viewBox="0 0 100 70" width="60" height="60">
             <rect width="80" height="6"></rect>
             <rect y="30" width="80" height="6"></rect>
             <rect y="60" width="80" height="6"></rect>
           </svg>
         </button>
-        <button class="nav__close hidden" id="btn-close">
+        <button
+          class="nav__close hidden"
+          id="btn-close"
+          aria-label="fermer le menu burger"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -44,7 +50,7 @@
       </nav>
     </header>
     <main>
-      <section class="presentation">
+      <section class="presentation" id="presentation">
         <header class="presentation__header">
           <h1 class="presentation__titre">
             <strong>Pressade</strong>

@@ -1,9 +1,10 @@
 .presentation {
   border-bottom: 0.125rem solid rgba(216, 216, 216, 0.699);
-  height: 92vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-top: 8vh;
 }
 .presentation__titre {
   display: flex;
