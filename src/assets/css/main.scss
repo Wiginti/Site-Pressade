@@ -1,8 +1,9 @@
 .presentation {
   border-bottom: 0.3125rem solid rgba(255, 123, 0, 0.699);
-  background-image: url(../img/bg-presentation.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .presentation__titre {
   display: flex;
@@ -22,11 +23,17 @@
 .presentation__content {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
-}
-.presentation__image {
-  max-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 1vh;
 }
 .bio {
-  margin-top: 2rem;
+  padding-top: 2rem;
+}
+.presentation__image {
+  max-height: 60vh;
+}
+.presentation__content p {
+  padding: 1rem;
+  font-size: 1.2rem;
 }
