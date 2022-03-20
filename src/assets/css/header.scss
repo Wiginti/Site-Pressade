@@ -47,6 +47,9 @@
 .nav__close svg {
   height: 5vh;
 }
+.nav__close {
+  max-height: 6vh;
+}
 .nav__close svg:hover {
   stroke: blue;
   cursor: pointer;
