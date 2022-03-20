@@ -3,6 +3,7 @@
 @import "vars";
 @import "header";
 @import "main";
+@import "footer";
 * {
   box-sizing: border-box;
 }
@@ -15,6 +16,7 @@ a {
 }
 strong {
   font-weight: bold;
+  color: orange;
 }
 html {
   font-family: "RobotoCondensed-Regular";
